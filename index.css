@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.vish{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 200px;
+
+}
+
+.vish button{
+    
+    height: 200px;
+    width: 200px;
+    color: white;
+    background-color: red;
+    font-size: 30px;
+    font-weight: 800;
+    border: none;
+    border-radius: 30px;
+}
+.vish button:hover{
+    background-color: rgb(216, 47, 47);
+    cursor: pointer;
+}
